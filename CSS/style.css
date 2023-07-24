@@ -1,0 +1,128 @@
+html body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    color: black;
+}
+
+#navbar {
+    color:white;
+    background:black ;
+}
+#navbar a {
+color: white;
+
+}
+#navbar h1{
+    float: left;
+    padding: 20px;
+}
+#navbar a{
+    float: right;
+    list-style: none;
+}
+.text -primary {
+    color: rgb(255, 210, 196);
+}
+.btn{
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: none;
+}
+#Showcase{
+    background: url(../img/showcase.jpg);
+    height: 600px;
+    text-align: center;
+
+}
+#Home-info{
+    height: 400px;
+}
+#Home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../img/photo-1.jpg');
+   min-height:100% ; 
+}
+#Home-info .info-content{
+    float: right;
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+.box {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 30px;
+}
+#About-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#About-info .info-right img{
+    display: block;
+    margin: auto;
+    width:70%;
+    border-radius:50%;
+}
+#About-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#testimonils {
+    height:600px;
+    background:url('../img/test-bg.jpg');
+    padding-top: 100px;
+}
+#testimonils h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    text-align: center;
+}
+#testimonils .testimonial img {
+    width: 100px;
+}
+#testimonils .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+
+}
+#contact form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  #contact form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contact form input, 
+  #contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+  }
+  
+  #contact form textarea {
+    height: 200px;
+  }
+  
+  #contact form input:focus, 
+  #contact formtextarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+  }
+  
+  /* Footer */
+  #main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+  }
